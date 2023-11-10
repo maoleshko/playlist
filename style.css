@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+body {
+  margin: 0;
+}
+
+.main {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(156deg, #ffed00 0%, #ff3dfe 51.89%, #5253ff 100%);
+  flex: 1 0 auto;
+  color: #121723;
+}
+.header {
+  background-color: #70ff00;
+  width: 100%;
+  height: 110px;
+}
+.header-logo {
+  color: var(--black, #121723);
+  text-align: center;
+  font-family: Actor;
+  font-size: 77px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 78.188%;
+  padding-top: 30px;
+}
+
+.content {
+  margin: 68px auto 26px;
+  display: block;
+  width: 90%;
+  max-width: 1290px;
+  padding-top: 25px;
+}
+
+.content__title {
+  color: #121723;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 0;
+}
+
+.content__cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 26px 0 0;
+}
+
+.card {
+  width: 100%;
+  max-width: 300px;
+  margin: 4px;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+}
+
+.card__info {
+  display: block;
+  margin: 0;
+  border-radius: 12px;
+  background: white;
+  padding: 24px 12px;
+  min-height: 72px;
+}
+
+.card__info_yellow {
+  background: #faff00;
+}
+
+.card__info_green {
+  background: #24ff00;
+}
+
+.card__info_pink {
+  background: #ffb4ea;
+}
+
+.card__info_blue {
+  background: #03e7fc;
+}
+
+.card__link {
+  width: 85%;
+  color: #121723;
+  text-decoration: none;
+}
+
+.card__text {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.card__text_title {
+  font-size: 26px;
+}
+
+.card__text_author {
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer {
+  background-color: black;
+  width: 100%;
+  font-size: 77px;
+}
+.footer-logo {
+  text-align: center;
+  font-family: Actor;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 78.188%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
