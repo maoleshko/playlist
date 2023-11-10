@@ -33,6 +33,7 @@ body {
   width: 90%;
   max-width: 1290px;
   padding-top: 25px;
+  min-height: 100vh;
 }
 
 .content__title {
